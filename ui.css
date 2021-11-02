@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spectral&display=swap');
+
+body{
+    background-image: url(img/back.jpeg);
+    margin: 0;
+    font-family: Spectral;
+}
+
+.head{
+    width: 100vw;
+    height: 80px;
+    background-color: #3a3a3a;
+}
+
+.collapse_button{
+    display: block;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    background-color: #5a5a5a;
+    left:50px;
+    top:10px;
+}
+
+
+.avatar{
+    display: block;
+    position: relative;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    background-color: aliceblue;
+    left: 95vw;
+    top: -45px;
+}
+
+.avatar:hover{
+    cursor: pointer;
+}
+
+.main{
+    display: flex;
+}
+.main_menu{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 920px;
+    width:200px;
+    background-color: #131313;
+    border-radius: 0 0 15px 0;
+}
+
+.second_menu{
+    display: block;
+    position: relative;
+    height: 920px;
+    width: 350px;
+    background-color: #8a8a8a;
+    border-radius: 0 0 15px 0;
+    left: -15px;
+    z-index: 2;
+    font-size: 40px;
+    text-align: center;
+}
+
+.second_menu_tools{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.delete_tree{
+    background-color: #131313;
+    color: aliceblue;
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.tree_collapse{
+    position: relative;
+    display: block;
+    border:none;
+    top:50px;
+    left: 10px;
+}
+
+.tree_collapse:hover{
+    cursor: pointer;
+    background-color: #3a3a3a;
+}
+
+.tree_collapse img{
+    width: 30px;
+    height: 30px;
+}
+
+.add_suite, .add_case, .delete_suite
+{
+    background-color: #131313;
+    color: aliceblue;
+    height: 50px;
+    width: 100px;
+    font-size: 25px;
+    text-align: center;
+    border-width: 0;
+    border-radius: 10px;
+}
+
+.add_suite:hover, .add_case:hover, .delete_suite:hover,.delete_tree:hover
+{
+    background-color: #5a5a5a;
+    cursor:pointer;
+}
+
+
+.suite1, .suite2 {
+    position: relative;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.case1,.case2,.case3{
+    position: relative;
+    font-size: 25px;
+    right: -30px;
+    font-weight: 700;
+}
+
+.tree_collapse{
+    display: block;
+    position: relative;
+    background-color: #8a8a8a;
+}
+
+.case_big{
+    position: relative;
+    display: block;
+    width: 40vw;
+    height: 50px;
+    background-color: #3a3a3a;
+    color: aliceblue;
+    top:-10px;
+
+    border-radius: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.case_big_back{
+    position: relative;
+    display: block;
+    width:40vw;
+    height: 250px;
+    background-color: #5a5a5a;
+    margin-top: 30px;
+    left:40px;
+    border-radius: 40px;
+    text-align: left;
+}
+
+.case_big_text{
+    display: block;
+    position: relative;
+    font-size: 30px;
+    color: aliceblue;
+    top: -20px;
+}
+
+.option_repository, .option_case_review, .option1, .option2, .option3 
+{   
+    position: relative;
+    width: 150px;
+
+    background-color: #131313;
+    border:none;
+    color: aliceblue;
+    margin-top: 10px;
+    text-align: left;
+    left:10px;
+    font-size: 30px; 
+}
+
+.option_repository:hover, .option_case_review:hover, .option1:hover, .option2:hover, .option3:hover 
+{   
+    cursor: pointer;
+    background-color: #3a3a3a;
+}
+
+.case_info_back{
+    display: block;
+    position: relative;
+    width: 25vw;
+    height: 500px;
+    background-color: #5a5a5a;
+    margin-top: 40px;
+    margin-left: 100px;
+    border-radius: 30px;
+}
+
+.case_info{
+    display: block;
+    position: relative;
+    width: 25vw;
+    height: 50px;
+    background-color: #3a3a3a;
+    top:-20px;
+    border-radius: 10px;
+    text-align: center;
+    color: aliceblue;
+    font-size: 30px;
+}
+
+.collapse_metrics
+{   
+    display: absolute;
+    position: relative;
+    width: 15vw;
+    height: 50px;
+    background-color: #3a3a3a;
+    left: 80vw;
+    top:55vh;
+    color: aliceblue;
+    text-align: center;
+    font-size: 25px;
+
+}

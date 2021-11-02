@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spectral&display=swap');
+
+#nav{
+position: fixed;
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+width:100vw;
+height: 60px;
+left: 0;
+top: 0;
+background: #3a3a3a;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+z-index: 1;
+}
+
+#nav a {
+    font-size: 35px;
+    position: relative;
+    top: 10px;
+    text-decoration: none;
+    color:aliceblue;
+}
+
+.link-main, .link-about, .link-login{
+    position: relative;
+    font-size: 25px;
+    color: aliceblue;
+    font-family: Carrois Gothic SC;
+}
+
+body{
+    background-image: url(img/back.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin: 0;
+}
+
+#tagline{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 40px;
+    font-family: Carrois Gothic SC;
+}
+.taglineH{
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.main-block{
+    position: relative;
+    width: 70vw;
+    height: 450px;
+    background: #3a3a3a;
+    border-radius: 40px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: auto;
+    margin-top: 50px;
+}
+
+.main-info
+{
+    position: relative;
+    display: block;
+    text-align: left;
+    list-style-type: disc;
+
+    color: aliceblue;
+    font-family: Spectral;
+    left: 50px;
+}
+
+.main-info .main-info-head{
+    position: relative;
+    display: block;
+    font-size: 40px;
+    font-weight: bold;
+    top:15px;
+}
+
+.main-info .main-info-sub{
+    position: relative;
+    display: block;
+    font-size: 30px;
+    font-weight: bold;
+    top:5px;
+}
+
+.main-info ul{
+    font-size: 30px;
+    width: 400px;
+    top:15px;
+}
+
+.main-info-img{
+    position:relative; 
+    display: block;
+    width: 30vw;
+    height: 400px;
+    background-image: url(img/img1.jpg);
+    left:35vw;
+    top:-420px;
+    border-radius: 20px;
+
+}
+
+.button-free{
+    position: relative;
+    display: block;
+    width:200px;
+    height: 70px;
+    background: #3a3a3a;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    margin:auto;
+    margin-top: 100px;
+    font-family: Spectral;
+}
+
+.button-free a, .button-free a:visited{
+    font-size: 30px;
+    color: aliceblue;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+
+.about{
+    display: flex;
+    width: 100vw;
+    left: 0px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: Spectral;
+}
+
+.about_tree, .about_team, .about_reports{
+    width: 420px;
+    height: 400px;
+    background: #3a3a3a;
+    border-radius: 15px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 100px;
+}
+
+.about_tree_img{
+    position: relative;
+    display: block;
+    margin: auto;
+    width: 420px;
+    padding-top: 35px;
+    height: 350px;
+}
+
+.about_reports_img{
+    position: relative;
+    display: block;
+    padding-top: 35px;
+    width: 420px;
+    height: 350px;
+}
+
+.about_team_img{
+    
+    position: relative;
+    display: block;
+    margin: auto;
+    width: 420px;
+    padding-top: 10px;
+    height: 380px;
+}
+
+.about_tree_info, .about_reports_info, .about_team_info
+{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.help_block{
+    display: block;
+    width: 300px;
+    height: 100px;
+    background: #3a3a3a;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    margin:auto;
+    margin-top: 300px;
+    font-size: 30px;
+    text-align: center;
+    color: aliceblue;
+    padding-top: 5px;
+    font-family: Spectral;
+
+}
+
+.help_button{
+    position: relative;
+    display: block;
+    text-align: center;
+    background-color: aliceblue;
+    width: 150px;
+    height: 40px;
+    margin: auto;
+    margin-top: 5px;
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+
+.footer_block {
+    display: block;
+    width: 100vw;
+    height: 40px;
+    margin-top: 20px;
+    background: #3a3a3a;
+
+    left:0px;
+    bottom:0px;
+    color: aliceblue;
+    font-size: 25px;
+    padding-top: 5px;
+    text-align: center;
+}
